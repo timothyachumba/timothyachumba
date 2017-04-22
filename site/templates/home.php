@@ -5,6 +5,7 @@
     Crafting digital experiences that help people.
   </h2>
 </div>
+
 <div class="<?= $globalgrid ?> grid-cell-lg-11 project-wrapper">
 
   <div class="project interface-lovers">
@@ -40,7 +41,7 @@
         ->image('hero.jpg')
         ->url()
       ?>" width="100%">
-      <h3 class="bottom light">Microsoft</h3>
+      <h3 class="bottom light">Microsoft To-Do</h3>
   </div>
 
 </div>
@@ -72,6 +73,20 @@
       <h3 class="bottom dark">T Photography</h3>
     </div>
 
+</div>
+
+<?php foreach($page->children() as $detail): ?>
+  <?= snippet('detail', array('detail' => $detail)) ?>
+<?php endforeach ?>
+
+<div class="ending <?= $globalgrid ?> grid-cell-lg-11">
+  <h4>
+    👋🏾
+  </h4>
+  <a href="">Dribbble</a>
+  <a href="">Instagram</a>
+  <a href="">Twitter</a>
+  <a href="">Medium</a>
 </div>
 
 <?php snippet('footer') ?>

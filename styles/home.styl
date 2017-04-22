@@ -1,7 +1,11 @@
+.intro
+  h2
+    margin 0 0 rem-calc(144)
+
 h2
   font-size 6.5vw
   line-height 7.8vw
-  margin 0 0 rem-calc(144)
+
 
 
 .project
@@ -16,7 +20,7 @@ h2
   &.t-photography
     h3
       left 8%
-      bottom 9%
+      bottom 10%
 
   &.phaedis
     h3
@@ -47,7 +51,64 @@ h2
     &.dark
       color black
 
-.foolography
-  .phone
-    width calc(100% + 46px)
-    position absolute
+.detail
+  font-family typeface-headline
+  margin rem-calc(104) 0
+
+  h4
+    margin 0 0 rem-calc(32)
+
+  ul
+    li
+      flexbox(flex)
+      flex-flow(row wrap)
+      justify-content(space-between)
+      margin 0 0 16px
+
+      &:last-child
+        margin 0
+
+      .left
+      .right
+        flex(1 auto)
+
+      .left
+        flex-grow(1)
+        font-size rem-calc(18)
+        font-weight 600
+
+        a
+          color white
+          text-decoration none
+
+      .right
+        text-align right
+        font-size rem-calc(16)
+        font-weight 600
+
+      .bottom
+        margin rem-calc(4) 0 0
+        color $grey-60
+        flex 1 100%
+        font-size rem-calc(16)
+        font-weight 400
+        color #BABABA
+
+
+h4
+  font-size rem-calc(22)
+
+
+.ending
+  margin rem-calc(40) 0
+  font-family typeface-headline
+
+  h4
+    margin 0 0 rem-calc(16)
+
+  a
+    font-size rem-calc(18)
+    margin 0 rem-calc(16) 0 0
+    font-weight 600
+    color white
+    text-decoration none
