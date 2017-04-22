@@ -5,12 +5,12 @@
   "engines": {
     "node": "6.2.2"
   },
-
   "dependencies": {
-    "stylus": "latest",
-    "nib": "latest",
     "browserify": "latest",
-    "watchify": "latest",
-    "uglifyify": "latest"
+    "nib": "latest",
+    "stylus": "latest",
+    "tilt.js": "^1.1.17",
+    "uglifyify": "latest",
+    "watchify": "latest"
   }
 }

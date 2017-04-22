@@ -1,0 +1,53 @@
+h2
+  font-size 6.5vw
+  line-height 7.8vw
+  margin 0 0 rem-calc(144)
+
+
+.project
+  position relative
+  margin-bottom 40px
+  transform-style preserve-3d
+  transform perspective(1000px)
+  will-change transform
+  font-size 0
+
+  &.interface-lovers
+  &.t-photography
+    h3
+      left 8%
+      bottom 9%
+
+  &.phaedis
+    h3
+      left 11.8%
+      bottom 9%
+
+  &.microsoft
+    h3
+      left 11.8%
+      bottom 11.8%
+
+  &.foolography
+    h3
+      left 11.8%
+      top 9%
+
+  h3
+    position absolute
+    left 0
+    z-index 1
+    font-size 3vw
+    line-height rem-calc(40)
+    transform translateZ(100px)
+
+    &.light
+      color inherit
+
+    &.dark
+      color black
+
+.foolography
+  .phone
+    width calc(100% + 46px)
+    position absolute

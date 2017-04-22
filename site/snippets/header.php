@@ -8,7 +8,13 @@
   <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
   <meta name="description" content="<?= $site->description()->html() ?>">
 
-  <?= css('assets/css/index.css') ?>
+  <?= css('assets/build/styles.css') ?>
 
 </head>
 <body>
+
+  <main class="main">
+    <div class="grid-top">
+      <div class="<?php echo $globalgrid ?> grid-cell-lg-11">
+        <h1 class="headline">Timothy Achumba.<br/>Designer at Microsoft.</h1>
+      </div>

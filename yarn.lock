@@ -933,6 +933,10 @@ jodid25519@^1.0.0:
   dependencies:
     jsbn "~0.1.0"
 
+jquery@^3.1.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
+
 jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
@@ -1610,6 +1614,12 @@ through2@^2.0.0:
 "through@>=2.2.7 <3", through@~2.3.4:
   version "2.3.8"
   resolved "https://registry.yarnpkg.com/through/-/through-2.3.8.tgz#0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5"
+
+tilt.js@^1.1.17:
+  version "1.1.17"
+  resolved "https://registry.yarnpkg.com/tilt.js/-/tilt.js-1.1.17.tgz#4ff3ad7aa63d9fc54aad2873801b0748322e87ed"
+  dependencies:
+    jquery "^3.1.1"
 
 timers-browserify@^1.0.1:
   version "1.4.2"
