@@ -1,0 +1,16 @@
+{
+  "author": "TimothyAchumba",
+  "name": "TimothyAchumba",
+  "version": "0.1.0",
+  "engines": {
+    "node": "6.2.2"
+  },
+
+  "dependencies": {
+    "stylus": "latest",
+    "nib": "latest",
+    "browserify": "latest",
+    "watchify": "latest",
+    "uglifyify": "latest"
+  }
+}
