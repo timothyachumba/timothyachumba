@@ -1,0 +1,13 @@
+Title: T Photography
+
+----
+
+Width: full-width
+
+----
+
+Height: 400px
+
+----
+
+Color: dark

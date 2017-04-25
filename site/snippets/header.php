@@ -10,11 +10,13 @@
 
   <?= css('assets/build/styles.css') ?>
 
+
 </head>
 <body>
 
   <main class="main">
-    <div class="grid-top">
-      <div class="<?php echo $globalgrid ?> grid-cell-lg-11">
+    <div class="grid-top container">
+      <div class="grid-cell grid-cell-offset-md-1 grid-cell-md-11">
         <h1 class="headline">Timothy Achumba.<br/>Designer at Microsoft.</h1>
       </div>
+    </div>

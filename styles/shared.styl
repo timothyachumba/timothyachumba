@@ -1,8 +1,28 @@
 .main
-  margin rem-calc(144) auto
-  max-width 92%
+  margin rem-calc(32) auto
+  flexbox(flex)
+  flex-flow(column)
+
+.container
+  margin 0 rem-calc(40)
 
 .headline
-  font-size rem-calc(22)
-  line-height rem-calc(28)
-  margin 0 0 rem-calc(80)
+  font-size rem-calc(18)
+  line-height rem-calc(25)
+  margin 0 0 rem-calc(40)
+
+
+@media screen and (min-width: rem-calc(640))
+
+  .main
+    margin rem-calc(144) auto
+    max-width 92%
+
+
+  .container
+    margin 0 rem-calc(0)
+
+  .headline
+    font-size rem-calc(22)
+    line-height rem-calc(28)
+    margin 0 0 rem-calc(80)

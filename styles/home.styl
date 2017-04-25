@@ -1,59 +1,48 @@
 .intro
   h2
-    margin 0 0 rem-calc(144)
+    margin 0 0 rem-calc(80)
+    font-size 9.8vw
+    line-height 10.8vw
 
-h2
-  font-size 6.5vw
-  line-height 7.8vw
-
-
-
-.project
+.projects
   position relative
-  margin-bottom 40px
-  transform-style preserve-3d
-  transform perspective(1000px)
-  will-change transform
+  padding 0
+  margin 0
+  display table-row
+  overflow-x scroll
+  flex 1 0 auto
+  -webkit-overflow-scrolling touch
   font-size 0
+  -webkit-box-flex 1
+  align-items baseline
+  width 100%
 
-  &.interface-lovers
-  &.t-photography
+  .project
+    display table-cell
+    position relative
+    font-size 0
+    width auto
+
+    img
+      height 520px
+      width auto
+
     h3
-      left 8%
-      bottom 10%
+      position absolute
+      left 32px
+      bottom 24px
+      z-index 1
+      font-size 8vw
 
-  &.phaedis
-    h3
-      left 11.8%
-      bottom 9%
+      &.light
+        color inherit
 
-  &.microsoft
-    h3
-      left 11.8%
-      bottom 11.8%
-
-  &.foolography
-    h3
-      left 11.8%
-      top 9%
-
-  h3
-    position absolute
-    left 0
-    z-index 1
-    font-size 3vw
-    line-height rem-calc(40)
-    transform translateZ(100px)
-
-    &.light
-      color inherit
-
-    &.dark
-      color black
+      &.dark
+        color black
 
 .detail
   font-family typeface-headline
-  margin rem-calc(104) 0
+  margin rem-calc(60) 0 0
 
   h4
     margin 0 0 rem-calc(32)
@@ -94,13 +83,12 @@ h2
         font-weight 400
         color #BABABA
 
-
 h4
   font-size rem-calc(22)
 
 
 .ending
-  margin rem-calc(40) 0
+  margin rem-calc(80) 0 rem-calc(40)
   font-family typeface-headline
 
   h4
@@ -112,3 +100,77 @@ h4
     font-weight 600
     color white
     text-decoration none
+
+
+@media screen and (min-width: rem-calc(640))
+
+  .intro
+    h2
+      margin 0 0 rem-calc(144)
+      font-size 6.5vw
+      line-height 7.8vw
+
+  .projects
+    flexbox(flex)
+    flex-direction(column)
+    overflow-x inherit
+    font-size 0
+    width auto
+
+    .grid-sizer
+      width 1%
+
+    .gutter-sizer
+      width 5%
+
+    .project
+      display block
+      position relative
+      margin-bottom 40px
+      transform-style preserve-3d
+      transform perspective(1000px)
+      will-change transform
+      font-size 0
+      width 43%
+
+      img
+        height auto
+        width 100%
+
+      &.full-width
+        width 100%
+
+      &.wide
+        width 52%
+
+      &.interface-lovers
+      &.t-photography
+        h3
+          left 8%
+          bottom 10%
+
+      &.phaedis
+        h3
+          left 11.8%
+          bottom 9%
+
+      &.microsoft
+        h3
+          left 11.8%
+          bottom 11.8%
+
+      &.foolography
+        h3
+          left 11.8%
+          top 8.5%
+
+      h3
+        font-size 3vw
+        line-height rem-calc(40)
+        transform translateZ(100px)
+
+  .detail
+    margin rem-calc(104) 0
+
+  .ending
+    margin rem-calc(40) 0

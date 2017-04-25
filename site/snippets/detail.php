@@ -1,4 +1,4 @@
-<div class="detail <?= $globalgrid ?> grid-cell-lg-5">
+<div class="detail grid-cell-lg-6">
   <h4><?= $detail->title() ?></h4>
   <ul>
     <?php foreach($detail->children() as $item): ?>

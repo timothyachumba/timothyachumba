@@ -1,0 +1,13 @@
+Title: Foolography
+
+----
+
+Width: wide
+
+----
+
+Height: 400px
+
+----
+
+Color: light

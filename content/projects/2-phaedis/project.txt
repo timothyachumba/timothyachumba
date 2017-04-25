@@ -1,0 +1,14 @@
+Title: Phaedis
+
+----
+
+
+Width: default
+
+----
+
+Height: 400px
+
+----
+
+Color: light

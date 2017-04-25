@@ -1,0 +1,13 @@
+Title: Interface Lovers
+
+----
+
+Width: full-width
+
+----
+
+Height: 400px
+
+----
+
+Color: light
