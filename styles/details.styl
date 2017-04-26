@@ -1,0 +1,49 @@
+.detail
+  font-family typeface-headline
+  padding rem-calc(60) 0 0
+  width 100%
+
+  h4
+    margin 0 0 rem-calc(32)
+
+  ul
+    li
+      flexbox(flex)
+      flex-flow(row wrap)
+      justify-content(space-between)
+      margin 0 0 16px
+
+      &:last-child
+        margin 0
+
+      .left
+      .right
+        flex(1 auto)
+
+      .left
+        flex-grow(1)
+        font-size rem-calc(18)
+        font-weight 600
+
+        a
+          color white
+          text-decoration none
+
+      .right
+        text-align right
+        font-size rem-calc(16)
+        font-weight 600
+
+      .bottom
+        margin rem-calc(4) 0 0
+        color $grey-60
+        flex 1 100%
+        font-size rem-calc(16)
+        font-weight 400
+        color #BABABA
+
+@media screen and (min-width: rem-calc(640))
+
+  .detail
+    padding rem-calc(104) 0
+    width: calc(100% * .4166666666666667 - 2.5rem);

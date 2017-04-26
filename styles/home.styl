@@ -4,85 +4,6 @@
     font-size 9.8vw
     line-height 10.8vw
 
-.projects
-  position relative
-  padding 0
-  margin 0
-  display table-row
-  overflow-x scroll
-  flex 1 0 auto
-  -webkit-overflow-scrolling touch
-  font-size 0
-  -webkit-box-flex 1
-  align-items baseline
-  width 100%
-
-  .project
-    display table-cell
-    position relative
-    font-size 0
-    width auto
-
-    img
-      height 520px
-      width auto
-
-    h3
-      position absolute
-      left 32px
-      bottom 24px
-      z-index 1
-      font-size 8vw
-
-      &.light
-        color inherit
-
-      &.dark
-        color black
-
-.detail
-  font-family typeface-headline
-  margin rem-calc(60) 0 0
-
-  h4
-    margin 0 0 rem-calc(32)
-
-  ul
-    li
-      flexbox(flex)
-      flex-flow(row wrap)
-      justify-content(space-between)
-      margin 0 0 16px
-
-      &:last-child
-        margin 0
-
-      .left
-      .right
-        flex(1 auto)
-
-      .left
-        flex-grow(1)
-        font-size rem-calc(18)
-        font-weight 600
-
-        a
-          color white
-          text-decoration none
-
-      .right
-        text-align right
-        font-size rem-calc(16)
-        font-weight 600
-
-      .bottom
-        margin rem-calc(4) 0 0
-        color $grey-60
-        flex 1 100%
-        font-size rem-calc(16)
-        font-weight 400
-        color #BABABA
-
 h4
   font-size rem-calc(22)
 
@@ -96,10 +17,13 @@ h4
 
   a
     font-size rem-calc(18)
-    margin 0 rem-calc(16) 0 0
+    margin 0 rem-calc(7) rem-calc(7) 0
     font-weight 600
     color white
     text-decoration none
+
+    &:last-child
+      margin 0
 
 
 @media screen and (min-width: rem-calc(640))
@@ -110,67 +34,6 @@ h4
       font-size 6.5vw
       line-height 7.8vw
 
-  .projects
-    flexbox(flex)
-    flex-direction(column)
-    overflow-x inherit
-    font-size 0
-    width auto
-
-    .grid-sizer
-      width 1%
-
-    .gutter-sizer
-      width 5%
-
-    .project
-      display block
-      position relative
-      margin-bottom 40px
-      transform-style preserve-3d
-      transform perspective(1000px)
-      will-change transform
-      font-size 0
-      width 43%
-
-      img
-        height auto
-        width 100%
-
-      &.full-width
-        width 100%
-
-      &.wide
-        width 52%
-
-      &.interface-lovers
-      &.t-photography
-        h3
-          left 8%
-          bottom 10%
-
-      &.phaedis
-        h3
-          left 11.8%
-          bottom 9%
-
-      &.microsoft
-        h3
-          left 11.8%
-          bottom 11.8%
-
-      &.foolography
-        h3
-          left 11.8%
-          top 8.5%
-
-      h3
-        font-size 3vw
-        line-height rem-calc(40)
-        transform translateZ(100px)
-
-  .detail
-    margin rem-calc(104) 0
-
   .ending
     margin rem-calc(40) 0
+    text-align left

@@ -1,0 +1,109 @@
+.projects
+  position relative
+  padding 0
+  margin 0
+  display table-row
+  overflow-x scroll
+  flex 1 0 auto
+  -webkit-overflow-scrolling touch
+  font-size 0
+  -webkit-box-flex 1
+  align-items baseline
+  width 100%
+
+  .project-container
+    display table-cell
+    position relative
+    font-size 0
+    height 560px
+    vertical-align top
+
+    .project-group
+      flexbox(flex)
+
+    .project
+      transform-style preserve-3d
+      transform perspective(1000px)
+      will-change transform
+      width 720px
+      height 560px
+
+      .project-image
+        position absolute
+        top 0
+        left 0
+        bottom 0
+        right 0
+        background-size cover
+        background-position center center
+        background-repeat none
+
+      h3
+        position absolute
+        left 32px
+        bottom 24px
+        z-index 1
+        font-size 11vw
+
+        &.dark
+          color black
+
+@media screen and (min-width: rem-calc(640))
+
+  .projects
+    position relative
+    flexbox(flex)
+    flex-direction(row)
+    align-items(start)
+    overflow-x inherit
+    font-size 0
+
+    .project-container
+      display block
+      position relative
+      height auto
+
+      .project-group
+        display block
+
+      .project
+        transform-style preserve-3d
+        transform perspective(1000px)
+        margin-bottom 2.5rem
+        will-change transform
+        height 0
+        width 100%
+
+        h3
+          font-size 2.5vw
+          line-height rem-calc(40)
+          transform translateZ(100px)
+
+        &.interface-lovers
+        &.t-photography
+          padding-bottom ((560 / 1060) * 100)%
+
+          h3
+            left 8%
+            bottom 10%
+
+        &.phaedis
+          padding-bottom ((560 / 460) * 100)%
+
+          h3
+            left 11.8%
+            bottom 9%
+
+        &.microsoft
+          padding-bottom ((360 / 460) * 100)%
+
+          h3
+            left 11.8%
+            bottom 11.8%
+
+        &.foolography
+          padding-bottom ((960 / 560) * 100)%
+
+          h3
+            left 11.8%
+            top 8%

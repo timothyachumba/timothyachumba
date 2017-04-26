@@ -27,7 +27,7 @@ grid(direction = 'row', cells-align = 'top', justify = '')
         justify-content space-between
 
 cell(i = 1, cols = columns, align = '', g = gutter)
-    flex-basis: s('calc(100% * %s - %s)', i / cols, rem-calc(g))
+    width: s('calc(100% * %s - %s)', i / cols, rem-calc(g))
     min-width 0 // FF adjustment fo rresponsive images
     if g is not 0
         margin 0 rem-calc(g / 2)

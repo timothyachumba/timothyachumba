@@ -1,4 +1,4 @@
-<div class="detail grid-cell-lg-6">
+<div class="detail grid-cell-md-5 grid-cell-offset-md-1">
   <h4><?= $detail->title() ?></h4>
   <ul>
     <?php foreach($detail->children() as $item): ?>

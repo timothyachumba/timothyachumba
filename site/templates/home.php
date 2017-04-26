@@ -3,32 +3,88 @@
 <div class="grid-top container">
 
 
-  <div class="intro grid-cell grid-cell-offset-md-1 grid-cell-md-11">
+  <div class="intro grid-cell grid-cell-offset-md-1 grid-cell-md-9">
     <h2>
       Crafting digital experiences that help people.
     </h2>
   </div>
 </div>
-<div class="grid-top">
-  <div class="projects grid-cell grid-cell-offset-md-1 grid-cell-md-11">
 
-    <div class="grid-sizer"></div>
-    <div class="gutter-sizer"></div>
+<div class="grid-top projects">
 
-    <?php foreach($projects as $project): ?>
-      <?php snippet('project-image', array('project' => $project)); ?>
-    <?php endforeach ?>
+  <div class="project-container grid-cell-md grid-cell-offset-md-1 grid-cell-md-11">
+
+    <div class="interface-lovers project">
+
+      <h3>Interface Lovers</h3>
+
+      <div
+        style="background-image: url(<?= $projects->find('interface-lovers')->image('hero.jpg')->url() ?>);"
+        class="project-image"></div>
+
+    </div>
 
   </div>
+
+  <div class="project-container grid-cell-md grid-cell-offset-md-1 grid-cell-md-5">
+
+    <div class="project-group">
+      <div class="microsoft project">
+
+        <h3>Microsoft To-Do</h3>
+
+        <div
+          style="background-image: url(<?= $projects->find('microsoft')->image('hero.jpg')->url() ?>);"
+          class="project-image"></div>
+
+      </div>
+      <div class="phaedis project">
+
+        <h3>Phaedis</h3>
+
+        <div
+          style="background-image: url(<?= $projects->find('phaedis')->image('hero.jpg')->url() ?>);"
+          class="project-image"></div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="project-container grid-cell-md grid-cell-md-6">
+
+    <div class="foolography project">
+      <h3>Foolography</h3>
+      <div
+        style="background-image: url(<?= $projects->find('foolography')->image('hero.jpg')->url() ?>);"
+        class="project-image"></div>
+    </div>
+
+  </div>
+
+  <div class="project-container grid-cell-md grid-cell-offset-md-1 grid-cell-md-11">
+
+    <div class="t-photography project">
+      <h3 class="dark">T Photography</h3>
+      <div
+        style="background-image: url(<?= $projects->find('t-photography')->image('hero.jpg')->url() ?>);"
+        class="project-image"></div>
+    </div>
+
+  </div>
+
+
 </div>
 <div class="grid-top container">
-  <div class="grid-top grid-cell grid-cell-offset-md-1 grid-cell-md-11 grid-justify-space">
-    <?php foreach($page->children() as $detail): ?>
-      <?= snippet('detail', array('detail' => $detail)) ?>
-    <?php endforeach ?>
-  </div>
+  <?php foreach($page->children() as $detail): ?>
+    <?= snippet('detail', array('detail' => $detail)) ?>
+  <?php endforeach ?>
+</div>
 
-  <div class="ending grid-cell grid-cell-offset-md-1 grid-cell-md-11">
+<div class="grid-top container">
+  <div class="ending grid-cell-offset-md-1 grid-cell-md-11">
     <h4>
       <a href="mailto:">👋🏾</a>
     </h4>
