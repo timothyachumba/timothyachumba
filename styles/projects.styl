@@ -11,6 +11,9 @@
   align-items baseline
   width 100%
 
+  .project-title
+    display none
+
   .project-container
     display table-cell
     position relative
@@ -40,7 +43,7 @@
 
       h3
         position absolute
-        left 32px
+        left 40px
         bottom 24px
         z-index 1
         font-size 11vw
@@ -58,6 +61,14 @@
     overflow-x inherit
     font-size 0
 
+    .project-title
+      display block
+      position absolute
+      transform rotate(-90deg)
+      font-size rem-calc(18)
+      left -120px
+      top 64px
+
     .project-container
       display block
       position relative
@@ -74,18 +85,31 @@
         height 0
         width 100%
 
+        &:hover
+          h3
+            opacity 1
+            transform translateZ(100px) scale(1)
+
         h3
           font-size 2.5vw
           line-height rem-calc(40)
-          transform translateZ(100px)
+          transform translateZ(100px) scale(0.98)
+          transition all 300ms ease
+          opacity 0
 
         &.interface-lovers
-        &.t-photography
-          padding-bottom ((560 / 1060) * 100)%
+          padding-bottom ((560 / 660) * 100)%
 
           h3
-            left 8%
-            bottom 10%
+            left 10%
+            bottom 9%
+
+        &.microsoft
+          padding-bottom ((560 / 360) * 100)%
+
+          h3
+            left 13%
+            bottom 9%
 
         &.phaedis
           padding-bottom ((560 / 460) * 100)%
@@ -94,12 +118,16 @@
             left 11.8%
             bottom 9%
 
-        &.microsoft
+        &.jimmy
           padding-bottom ((360 / 460) * 100)%
+
+          .project-image
+            background-position center right
 
           h3
             left 11.8%
-            bottom 11.8%
+            bottom 10.5%
+
 
         &.foolography
           padding-bottom ((960 / 560) * 100)%
@@ -107,3 +135,10 @@
           h3
             left 11.8%
             top 8%
+
+        &.t-photography
+          padding-bottom ((560 / 1060) * 100)%
+
+          h3
+            left 8%
+            bottom 10%

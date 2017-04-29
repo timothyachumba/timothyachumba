@@ -12,8 +12,8 @@
 
 <div class="grid-top projects">
 
-  <div class="project-container grid-cell-md grid-cell-offset-md-1 grid-cell-md-11">
-
+  <div class="project-container grid-cell-md grid-cell-offset-md-1 grid-cell-md-7">
+    <h4 class="project-title">Featured Projects</h4>
     <div class="interface-lovers project">
 
       <h3>Interface Lovers</h3>
@@ -26,24 +26,40 @@
 
   </div>
 
+  <div class="project-container grid-cell-md grid-cell-md-4">
+
+    <div class="microsoft project">
+
+      <h3>Microsoft</h3>
+
+      <div
+        style="background-image: url(<?= $projects->find('microsoft')->image('hero.jpg')->url() ?>);"
+        class="project-image"></div>
+
+    </div>
+
+  </div>
+
   <div class="project-container grid-cell-md grid-cell-offset-md-1 grid-cell-md-5">
 
     <div class="project-group">
-      <div class="microsoft project">
 
-        <h3>Microsoft To-Do</h3>
-
-        <div
-          style="background-image: url(<?= $projects->find('microsoft')->image('hero.jpg')->url() ?>);"
-          class="project-image"></div>
-
-      </div>
       <div class="phaedis project">
 
         <h3>Phaedis</h3>
 
         <div
           style="background-image: url(<?= $projects->find('phaedis')->image('hero.jpg')->url() ?>);"
+          class="project-image"></div>
+
+      </div>
+
+      <div class="jimmy project">
+
+        <h3 class="dark">#jimmysaysyes</h3>
+
+        <div
+          style="background-image: url(<?= $projects->find('jimmy')->image('hero.jpg')->url() ?>);"
           class="project-image"></div>
 
       </div>
@@ -84,14 +100,12 @@
 </div>
 
 <div class="grid-top container">
-  <div class="ending grid-cell-offset-md-1 grid-cell-md-11">
-    <h4>
-      <a href="mailto:">👋🏾</a>
-    </h4>
-    <a href="https://dribbble.com/timothyachumba" target="_blank">Dribbble</a>
-    <a href="https://instagram.com/timothyachumba" target="_blank">Instagram</a>
-    <a href="https://twittter.com/timothyachumba" target="_blank">Twitter</a>
-    <a href="http://medium.com/timothyachumba" target="_blank">Medium</a>
+  <div class="ending grid-cell-offset-md-1 grid-cell-md-4">
+    <h4><a href="mailto:">👋🏾</a></h4>
+    <a href="https://dribbble.com/timothyachumba" target="_blank">Dribbble.</a>
+    <a href="https://instagram.com/timothyachumba" target="_blank">Instagram.</a>
+    <a href="https://twittter.com/timothyachumba" target="_blank">Twitter.</a>
+    <a href="http://medium.com/timothyachumba" target="_blank">Medium.</a>
   </div>
 </div>
 
