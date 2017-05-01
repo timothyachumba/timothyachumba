@@ -7,7 +7,9 @@
   },
   "dependencies": {
     "browserify": "latest",
+    "jquery": "^3.2.1",
     "nib": "latest",
+    "skrollr": "^0.6.26",
     "stylus": "latest",
     "tilt.js": "^1.1.17",
     "uglifyify": "latest",

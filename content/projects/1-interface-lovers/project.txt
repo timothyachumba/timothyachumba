@@ -2,12 +2,24 @@ Title: Interface Lovers
 
 ----
 
-Width: full-width
+Description:
+
+Interface Lovers is an online magazine for creative professionals, asking them essential questions to gain insights that can push and inspire the rest of us.
+
+The goal was to create a simple but immersive design focusing on the browsing and reading experience. By taking cues from print in regards to typography and layout and pairing that with the latest web technologies we achieved a both familiar and modern feel.
 
 ----
 
-Height: 400px
+Link: Launching Soon
 
 ----
 
-Color: light
+Responsibilities: Art Direction, Design, Development & Branding
+
+----
+
+visuals: (video: file: 1.png mp4: 1.mp4 autoplay: yes controls: 0 loop: yes poster: 1.png) (image: 2.png) (image: 3.png)
+
+----
+
+Credits: <em>Co-developed with:</em> Iheanyi Ekechukwu & Doga Genc. <em>Editor: William Channer</em>

@@ -177,7 +177,7 @@ kirbytext::$tags['link'] = array(
 
     if(empty($text)) {
       $text = $link;
-    } 
+    }
 
     if(str::isURL($text)) {
       $text = url::short($text);
@@ -266,11 +266,11 @@ kirbytext::$tags['youtube'] = array(
       $figcaption = null;
     }
 
-    return '<figure class="' . $tag->attr('class', kirby()->option('kirbytext.video.class', 'video')) . '">' . embed::youtube($tag->attr('youtube'), array(
+    return '<figure class="' . $tag->attr('class', kirby()->option('kirbytext.video.class', 'video')) . '"><div class="video-wrapper">' . embed::youtube($tag->attr('youtube'), array(
       'width'   => $tag->attr('width',  kirby()->option('kirbytext.video.width')),
       'height'  => $tag->attr('height', kirby()->option('kirbytext.video.height')),
       'options' => kirby()->option('kirbytext.video.youtube.options')
-    )) . $figcaption . '</figure>';
+    )) . $figcaption . '</div></figure>';
 
   }
 );
