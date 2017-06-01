@@ -10303,9 +10303,11 @@ return jQuery;
          * Bind mouse movement evens on instance
          */
         const bindEvents = function() {
+            const _this = this;
             $(this).on('mousemove', mouseMove);
             $(this).on('mouseenter', mouseEnter);
             if (this.settings.reset) $(this).on('mouseleave', mouseLeave);
+            if (this.settings.glare) $(window).on('resize', updateGlareSize.bind(_this));
         };
 
         /**
@@ -10460,7 +10462,6 @@ return jQuery;
                 'left': '50%',
                 'pointer-events': 'none',
                 'background-image': `linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%)`,
-                'opacity': `${this.settings.maxGlare / 2}`,
                 'width': `${$(this).outerWidth()*2}`,
                 'height': `${$(this).outerWidth()*2}`,
                 'transform': 'rotate(180deg) translate(-50%, -50%)',
@@ -10468,6 +10469,16 @@ return jQuery;
                 'opacity': '0',
             });
 
+        };
+
+        /**
+         * Update glare on resize
+         */
+        const updateGlareSize = function () {
+            this.glareElement.css({
+                'width': `${$(this).outerWidth()*2}`,
+                'height': `${$(this).outerWidth()*2}`,
+            });
         };
 
         /**

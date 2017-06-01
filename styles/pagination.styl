@@ -1,0 +1,83 @@
+.paging-wrapper
+  width 100%
+
+.pagination
+  flexbox(flex)
+  margin-top rem-calc(120)
+  align-items(flex-end)
+  font-size 0
+  width 100%
+
+  .pagination-item
+    width 50%
+    height 100px
+    position relative
+    flexbox(flex)
+    align-items(flex-end)
+    transition all 600ms easing
+
+    &:hover
+      width 55%
+
+    &.is-inactive:hover
+      width 50%
+
+    &.prev
+      height rem-calc(80)
+      transform scaleX(-1) !important
+
+    .pagination-image
+      background-color rgba(white,0.1)
+      position absolute
+      top 0
+      bottom 0
+      left 0
+      right 0
+      background-size cover
+      background-repeat none
+      background-position center
+      z-index -1
+      opacity 0.9
+
+    .pagination-text
+      padding 16px 24px
+
+      &.dark
+        color black
+
+      h3
+        font-size 4.5vw
+        line-height 2.5vw
+        display none
+
+      h4
+        font-size 6vw
+        line-height 5.1vw
+        margin-bottom rem-calc(8)
+
+        span
+          display none
+
+
+@media screen and (min-width: rem-calc(640))
+
+  .pagination
+    .pagination-item
+      height 180px
+
+      &.prev
+        height rem-calc(140)
+
+      .pagination-text
+        h3
+          font-size 2.5vw
+          line-height 2.5vw
+          display block
+
+        h4
+          font-size 1.2vw
+          line-height 1.2vw
+          margin-bottom rem-calc(8)
+
+          span
+            display inline

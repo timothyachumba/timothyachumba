@@ -1,0 +1,25 @@
+Title: Microsoft To-Do
+
+----
+
+Description:
+
+Microsoft To-Do is the easiest way to get stuff done, every day. With its intelligent Suggestions, To-Do removes all the clutter and empowers you to focus on what's important, when it's important.
+
+When Wunderlist joined Microsoft part of our mission was to create the first cross-platform, Microsoft built to-do list that people would want to use not have to use. By combining the simplicity of Wunderlist and the massive resources of the Microsoft eco-system we created a beautiful, intelligent and delightful to-do list that truly helps you get stuff done.
+
+----
+
+Link: (link: https://todo.microsoft.com target: _blank text: Download App)
+
+----
+
+Responsibilities: Design, Art Direction
+
+----
+
+visuals: (youtube: https://www.youtube.com/watch?v=6k3_T84z5Ds) (image: 2.jpg class: full) (image: 1.png)
+
+----
+
+Credits: <em>Co-designed with:</em> Julius Schäper, Thomas Bogner, Dominic Davies, Florian Peninon, Bernd Plontsch and Basak Haznedaroglu. <em>Film:</em> Thomas Bogner

@@ -18,14 +18,14 @@ $(function() {
     speed: 4000
   })
 
-  $('a').click(function(evt) {
-    evt.preventDefault();
-    var nextPage = this.getAttribute("href");
-
-    $body.addClass('animated fadeOut');
-    $body.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
-      window.location = nextPage;
-    });
-  });
+  // $('a').click(function(evt) {
+  //   evt.preventDefault();
+  //   var nextPage = this.getAttribute("href");
+  //
+  //   $body.addClass('animated fadeOut');
+  //   $body.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
+  //     window.location = nextPage;
+  //   });
+  // });
 
 });

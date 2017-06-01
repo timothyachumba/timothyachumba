@@ -1,0 +1,25 @@
+Title: Phaedis
+
+----
+
+Description:
+
+PHÆDIS  is a storytelling platform that partners with brands to bring you designer clothes from seasons gone by.
+
+We wanted to create an e-commerce experience that centred around storytelling. While reading each story users would be able to purchase the designer clothes presented. There wasn't existing platform that allowed for this so we had to create our own. As a co-founder I am continually working on improving this relationship between story and product.
+
+----
+
+Link: (link: https://phaedis.com target: _blank  text: See in action)
+
+----
+
+Responsibilities: Design, Development, Photography & Branding
+
+----
+
+visuals: (video: file: 1.png mp4: 1.mp4 autoplay: yes controls: 0 loop: yes poster: 1.png) (image: 2.png) (video: file: 2.png mp4: 2.mp4 autoplay: yes controls: 0 loop: yes poster: 3.png)
+
+----
+
+Credits: <em>Creative Direction & Storytelling:</em> Judith Achumba-Wöllenstein

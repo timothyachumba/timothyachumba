@@ -101,10 +101,10 @@
 
 <div class="grid-top container">
   <div class="ending grid-cell-offset-md-1">
-    <h4><a href="mailto:">👋🏾</a></h4>
+    <h4><a href="mailto:timothy@achumba.com?Subject=Hi%there">👋🏾</a></h4>
     <a href="https://dribbble.com/timothyachumba" target="_blank">Dribbble.</a>
     <a href="https://instagram.com/timothyachumba" target="_blank">Instagram.</a>
-    <a href="https://twittter.com/timothyachumba" target="_blank">Twitter.</a>
+    <a href="https://twitter.com/timothyachumba" target="_blank">Twitter.</a>
     <a href="http://medium.com/@timothyachumba" target="_blank">Medium.</a>
   </div>
 </div>

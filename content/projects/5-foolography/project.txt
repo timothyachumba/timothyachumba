@@ -1,0 +1,25 @@
+Title: Foolography
+
+----
+
+Description:
+
+The Unleashed puts complete control over your DSLR into the palm of your hand – right from your smartphone.
+
+I was hired to help create the digital mobile experience for a hardware product. This product would be used mainly by photography professionals so I wanted to go with a visual style that fit the user and product. I research and testing a lot of cameras to understand the controls and determine how to represent them in the app.
+
+----
+
+Link: (link: https://www.kickstarter.com/projects/foolography/unleashed-full-control-over-your-dslr-from-your-sm target: _blank text: Visit the Kickstarter )
+
+----
+
+Responsibilities: Design, Prototyping
+
+----
+
+visuals: (youtube: https://www.youtube.com/watch?v=o_7AW8T2m18) (image: 4.png class: full) (image: 1.png class: full)
+
+----
+
+Credits: <em>Filming:</em> Daniel Hererra

@@ -1,0 +1,22 @@
+Title: T Photography
+
+----
+
+Description:
+
+This is a personal project with the goal to both learn React and create an online experience to showcase my photography work.
+----
+
+Link: Launching Soon
+
+----
+
+Responsibilities: Design, Development
+
+----
+
+visuals: (image: 1.png) (image: 2.png) (image: 3.png class: full)
+
+----
+
+Credits: <em>Co-developed with:</em> Florian Peninon

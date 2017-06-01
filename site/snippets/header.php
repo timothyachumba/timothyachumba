@@ -8,7 +8,7 @@
   <title><?= $site->title()->html() ?> — <?= $page->title()->html() ?></title>
   <meta name="description" content="<?= $site->description()->html() ?>">
 
-  <meta property="og:title" content="<?= $site->title()->html() ?> — <?= $page->title()->html() ?>">
+  <meta property="og:title" content="<?= $site->title()->html() ?>">
   <meta property="og:description" content="<?= $site->description() ?>">
 
   <meta property="og:url" content="<?= $page->url() ?>">

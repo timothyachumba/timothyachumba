@@ -1,0 +1,89 @@
+.hero
+  position relative
+  margin-bottom rem-calc(56)
+  width 100%
+
+  .hero-image
+    background-size cover
+    background-position center center
+    background-repeat none
+    padding-bottom 70%
+
+h1
+  font-size rem-calc(40)
+
+h2
+  font-size rem-calc(18)
+  margin-bottom rem-calc(16)
+
+.description
+  margin-top rem-calc(24)
+  margin-bottom rem-calc(120)
+
+
+figure
+  flexbox(flex)
+  align-items(center)
+  margin-bottom rem-calc(40)
+  background-color #1B1B1B
+  position relative
+
+  img
+  video
+    max-width 90%
+    margin rem-calc(24) auto
+
+  &.full img
+    max-width 100%
+    margin 0 auto
+
+  .video-wrapper
+    position relative
+    width 90%
+    height 0
+    padding-bottom 50%
+    margin rem-calc(24) auto
+
+    iframe
+      position absolute
+      top 0
+      left 0
+      width 100%
+      height 100%
+
+.credits
+  margin-top rem-calc(64)
+
+@media screen and (min-width: rem-calc(640))
+
+  .hero
+    margin-bottom rem-calc(120)
+
+    .hero-image
+      padding-bottom ((560 / 1060) * 100)%
+
+  figure
+    margin-bottom rem-calc(56)
+
+    .app-bar
+      position absolute
+      margin rem-calc(80) 0 0 11%
+      width 78%
+      height 1.7vw
+      background-color #D8D8D8
+      top -1.7vw
+      left 0
+      z-index 1
+
+    img
+    video
+      max-width 78%
+      margin rem-calc(80) auto
+
+    .video-wrapper
+      width 78%
+      padding-bottom 44%
+      margin rem-calc(80) auto
+
+  .credits
+    margin-top rem-calc(120)
